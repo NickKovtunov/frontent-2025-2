@@ -1,3 +1,41 @@
 .welcomePart{
     background: #eee;
 }
+
+.welcomePartDescription{
+    display: flex;
+}
+
+.welcomePartDescriptionText h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 55px;
+    line-height: 1;
+    color: #000;
+    font-weight: 500;
+    margin-top: 48px;
+}
+
+.welcomePartDescriptionText p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+    font-weight: 400;
+    margin-top: 55px;
+}
+
+.welcomePartDescriptionText button{
+    margin-top: 38px;
+    background: #FB565A;
+    border: 0px;
+    width: 240px;
+    height: 50px;
+    border-radius: 3px;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
