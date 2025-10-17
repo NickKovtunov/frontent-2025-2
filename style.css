@@ -1,9 +1,15 @@
+.centeredBlock{
+    margin: 0 auto;
+    width: 1280px;
+}
+
 .welcomePart{
     background: #eee;
 }
 
 .welcomePartDescription{
     display: flex;
+    justify-content: space-between;
 }
 
 .welcomePartDescriptionText h2{
@@ -30,6 +36,44 @@
     border: 0px;
     width: 240px;
     height: 50px;
+    border-radius: 3px;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.workImage{
+    margin-top: 80px;
+}
+
+.workHeader{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.workText{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.workBtn{
+    margin-top: 32px;
+    background: #FB565A;
+    border: 0px;
+    padding: 15px 40px;
     border-radius: 3px;
 
     font-family: "Roboto", sans-serif;
