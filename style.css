@@ -1,4 +1,6 @@
 .centeredBlock{
+    display: flex;
+    justify-content: space-between;
     margin: 0 auto;
     width: 1280px;
 }
@@ -46,8 +48,9 @@
     text-transform: uppercase;
 }
 
-.workImage{
+.work{
     margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .workHeader{
@@ -71,7 +74,6 @@
 
 .workBtn{
     margin-top: 32px;
-    background: #FB565A;
     border: 0px;
     padding: 15px 40px;
     border-radius: 3px;
@@ -82,4 +84,24 @@
     color: #fff;
     font-weight: 500;
     text-transform: uppercase;
+}
+
+.workBtnRed{
+    background: #FB565A;
+}
+
+.workBtnGreen{
+    background: #00CA74;
+}
+
+.WorkBtnYellow{
+    background: #EFC849;
+}
+
+hr{
+    height: 2px;
+    background: #eee;
+    border: 0px;
+    margin: 0 auto;
+    width: 1280px;
 }
