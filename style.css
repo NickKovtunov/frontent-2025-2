@@ -109,6 +109,60 @@ hr{
     width: 1280px;
 }
 
+.verticalLine{
+    background: #eee;
+    height: 52px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    width: 2px;
+}
+
+.mapAddress{
+    background: white;
+    margin-top: 54px;
+    padding: 50px;
+    position: absolute;
+    z-index: 2;
+}
+
+.mapAddress h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mapAddress p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #666;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+.mapAddress button{
+    background: #FB565A;
+    margin-top: 37px;
+    border: 0px;
+    padding: 15px 40px;
+    border-radius: 3px;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.partnerWrapper{
+    align-items: center;
+    justify-content: space-between;
+}
+
 footer{
     display: flex;
 }
