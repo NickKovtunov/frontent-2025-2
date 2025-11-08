@@ -4,6 +4,10 @@
     width: 1280px;
 }
 
+button{
+    cursor: pointer;
+}
+
 .welcomePart{
     background: #eee;
 }
@@ -117,7 +121,7 @@ hr{
     width: 2px;
 }
 
-.mapAddress{
+.mapAddress, .modalContent{
     background: white;
     margin-top: 54px;
     padding: 50px;
@@ -125,7 +129,7 @@ hr{
     z-index: 2;
 }
 
-.mapAddress h2{
+.mapAddress h2, .modalContent h2{
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 30px;
@@ -134,7 +138,7 @@ hr{
     text-transform: uppercase;
 }
 
-.mapAddress p{
+.mapAddress p, .modalContent p{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 18px;
@@ -143,7 +147,7 @@ hr{
     margin-top: 22px;
 }
 
-.mapAddress button{
+.mapAddress button, .modalContent button{
     background: #FB565A;
     margin-top: 37px;
     border: 0px;
@@ -220,4 +224,28 @@ footer{
     color: #444;
     font-weight: 400;
     margin-top: 10px;
+}
+
+.modalWrap{
+    display: none;
+    background: black;
+    opacity: 0.7;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 3;
+    width: 100%;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top:0;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
 }

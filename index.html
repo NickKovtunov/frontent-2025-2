@@ -8,16 +8,16 @@
         <link rel="stylesheet" href="style.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body id="main">
         <div class="welcomePart">
             <header class="centeredBlock">
                 <img src="nerds-logo.png" alt="Логотип сайт">
             </header>
             <div class="welcomePartDescription centeredBlock">
                 <div class="welcomePartDescriptionText">
-                    <h2>Долго, дорого, <br>скрупулезно.</h2>
+                    <h2 id="mainHeader">Долго, дорого, <br>скрупулезно.</h2>
                     <p>Математически выверенный дизайн <br>для вашего сайта или мобильного приложения.</p>
-                    <button>Узнать больше</button>
+                    <button onclick="openModal()">Узнать больше</button>
                 </div>
                 <div class="welcomePartDescriptionImg">
                     <img src="nerds-index-slide1 1.png" alt="Телефоны">
@@ -107,5 +107,18 @@
                 <p>Скидка 10% для друзей из социальных сетей.</p>
             </div>
         </footer>
+        <div class="modalWrap" id="modalWrap"></div>
+        <div class="modal" id="modal">
+            <div class="modalContent">
+                <h2>NЁRDS DESIGN STUDIO</h2>
+                <p>
+                    наб. Реки Карповки, <br>
+                    5 лит П, Санкт-Петербург<br><br>
+                    +7 800 555-86-28
+                </p>
+                <button onclick="closeModal()">Напишите нам</button>
+            </div>
+        </div>
+    <script src="script.js"></script>
     </body>
 </html>
